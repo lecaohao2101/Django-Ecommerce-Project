@@ -1,0 +1,6 @@
+create app: py manage.py startapp store
+
+store/models: create models or create db
+py manage.py makemigrations
+py manage.py createsuperuser
+
